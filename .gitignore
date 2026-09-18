@@ -1,0 +1,7 @@
+﻿workspace/
+__pycache__/
+*.pyc
+*.blend
+*.blend1
+*.blend2
+*.log
