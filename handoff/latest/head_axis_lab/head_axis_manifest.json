@@ -1,0 +1,82 @@
+{
+  "mode": "READ_ONLY_HEAD_AXIS_LAB",
+  "base_frame": 60,
+  "control": "FK-Head",
+  "rotation_mode": "XYZ",
+  "base_rotation_euler": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "candidates": [
+    {
+      "name": "neutral",
+      "delta_degrees": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "file": "neutral.jpg"
+    },
+    {
+      "name": "head_X_pos_5deg",
+      "delta_degrees": [
+        5.0,
+        0.0,
+        0.0
+      ],
+      "file": "head_X_pos_5deg.jpg"
+    },
+    {
+      "name": "head_X_neg_5deg",
+      "delta_degrees": [
+        -5.0,
+        0.0,
+        0.0
+      ],
+      "file": "head_X_neg_5deg.jpg"
+    },
+    {
+      "name": "head_Y_pos_5deg",
+      "delta_degrees": [
+        0.0,
+        5.0,
+        0.0
+      ],
+      "file": "head_Y_pos_5deg.jpg"
+    },
+    {
+      "name": "head_Y_neg_5deg",
+      "delta_degrees": [
+        0.0,
+        -5.0,
+        0.0
+      ],
+      "file": "head_Y_neg_5deg.jpg"
+    },
+    {
+      "name": "head_Z_pos_5deg",
+      "delta_degrees": [
+        0.0,
+        0.0,
+        5.0
+      ],
+      "file": "head_Z_pos_5deg.jpg"
+    },
+    {
+      "name": "head_Z_neg_5deg",
+      "delta_degrees": [
+        0.0,
+        0.0,
+        -5.0
+      ],
+      "file": "head_Z_neg_5deg.jpg"
+    }
+  ],
+  "camera_target": [
+    0.0,
+    0.1667868196964264,
+    1.1848504543304443
+  ],
+  "camera_distance": 2.6590656518936155
+}
