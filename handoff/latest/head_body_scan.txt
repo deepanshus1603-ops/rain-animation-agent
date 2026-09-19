@@ -1,0 +1,382 @@
+RAIN HEAD/BODY CONTROL CANDIDATES
+========================================================================
+
+01. FK-Head  score=35
+    parent: P-FK-Head
+    collections: Main FK Controls
+    custom_shape: WGT-Cube
+    rotation_mode: XYZ
+    lock_rotation: [False, False, False]
+    keyframes: []
+
+02. MSTR-Head_Lower  score=35
+    parent: DEF-Head
+    collections: Face Main Extras
+    custom_shape: WGT-MSTR-Head_Lower
+    rotation_mode: XYZ
+    lock_rotation: [False, False, False]
+    keyframes: []
+
+03. MSTR-Head_Upper  score=35
+    parent: DEF-Head
+    collections: Face Main Extras
+    custom_shape: WGT-MSTR-Head_Upper
+    rotation_mode: XYZ
+    lock_rotation: [False, False, False]
+    keyframes: []
+
+04. FK-Neck  score=33
+    parent: P-FK-Neck
+    collections: Main FK Controls
+    custom_shape: WGT-FK_Limb_Offset
+    rotation_mode: XYZ
+    lock_rotation: [False, False, False]
+    keyframes: []
+
+05. STR-Head  score=27
+    parent: FK-Head
+    collections: Tweak Controls
+    custom_shape: WGT-Sphere
+    rotation_mode: XYZ
+    lock_rotation: [False, False, False]
+    keyframes: []
+
+06. STR-Head_End  score=27
+    parent: FK-Head
+    collections: Tweak Controls
+    custom_shape: WGT-Sphere
+    rotation_mode: XYZ
+    lock_rotation: [False, False, False]
+    keyframes: []
+
+07. MSTR-Clavicle.L  score=26
+    parent: FK-Chest_Child
+    collections: Main Controls, Main FK Controls
+    custom_shape: WGT-Clavicle
+    rotation_mode: QUATERNION
+    lock_rotation: [False, False, False]
+    keyframes: [1.0, 12.0, 20.0, 28.0, 36.0, 42.0, 48.0, 54.0, 60.0, 66.0, 71.0, 75.0, 82.0, 90.0, 96.0]
+
+08. MSTR-Clavicle.R  score=26
+    parent: FK-Chest_Child
+    collections: Main Controls, Main FK Controls
+    custom_shape: WGT-Clavicle
+    rotation_mode: XYZ
+    lock_rotation: [False, False, False]
+    keyframes: []
+
+09. MSTR-Hips  score=26
+    parent: MSTR-Pelvis
+    collections: FK Spine, IK Spine
+    custom_shape: WGT-Hips
+    rotation_mode: XYZ
+    lock_rotation: [False, False, False]
+    keyframes: []
+
+10. AIM-TAN-Forehead_1_2.L  score=24
+    parent: BB-Forehead-_1.L
+    collections: TAN-AIM: BBone Automatic Handle Helpers
+    custom_shape: WGT-Arrow3D
+    rotation_mode: QUATERNION
+    lock_rotation: [False, False, False]
+    keyframes: []
+    constraints:
+      - Copy Location (COPY_LOCATION), mute=False, influence=1.0
+      - Damped Track +Y (DAMPED_TRACK), mute=True, influence=1.0
+
+11. AIM-TAN-Forehead_1_2.R  score=24
+    parent: BB-Forehead-_1.R
+    collections: TAN-AIM: BBone Automatic Handle Helpers
+    custom_shape: WGT-Arrow3D
+    rotation_mode: QUATERNION
+    lock_rotation: [False, False, False]
+    keyframes: []
+    constraints:
+      - Copy Location (COPY_LOCATION), mute=False, influence=1.0
+      - Damped Track +Y (DAMPED_TRACK), mute=True, influence=1.0
+
+12. AIM-TAN-Forehead_2.M  score=24
+    parent: BB-Forehead-_Top.M
+    collections: TAN-AIM: BBone Automatic Handle Helpers
+    custom_shape: WGT-Arrow3D
+    rotation_mode: QUATERNION
+    lock_rotation: [False, False, False]
+    keyframes: []
+    constraints:
+      - Copy Location (COPY_LOCATION), mute=False, influence=1.0
+      - Damped Track +Y (DAMPED_TRACK), mute=True, influence=1.0
+
+13. AIM-TAN-Forehead_2_2.L  score=24
+    parent: BB-Forehead-_Top_1.L
+    collections: TAN-AIM: BBone Automatic Handle Helpers
+    custom_shape: WGT-Arrow3D
+    rotation_mode: QUATERNION
+    lock_rotation: [False, False, False]
+    keyframes: []
+    constraints:
+      - Copy Location (COPY_LOCATION), mute=False, influence=1.0
+      - Damped Track +Y (DAMPED_TRACK), mute=True, influence=1.0
+
+14. AIM-TAN-Forehead_2_2.R  score=24
+    parent: BB-Forehead-_Top_1.R
+    collections: TAN-AIM: BBone Automatic Handle Helpers
+    custom_shape: WGT-Arrow3D
+    rotation_mode: QUATERNION
+    lock_rotation: [False, False, False]
+    keyframes: []
+    constraints:
+      - Copy Location (COPY_LOCATION), mute=False, influence=1.0
+      - Damped Track +Y (DAMPED_TRACK), mute=True, influence=1.0
+
+15. AIM-TAN-Forehead_3_2.L  score=24
+    parent: BB-Forehead-_Top_2.L
+    collections: TAN-AIM: BBone Automatic Handle Helpers
+    custom_shape: WGT-Arrow3D
+    rotation_mode: QUATERNION
+    lock_rotation: [False, False, False]
+    keyframes: []
+    constraints:
+      - Copy Location (COPY_LOCATION), mute=False, influence=1.0
+      - Damped Track +Y (DAMPED_TRACK), mute=True, influence=1.0
+
+16. AIM-TAN-Forehead_3_2.R  score=24
+    parent: BB-Forehead-_Top_2.R
+    collections: TAN-AIM: BBone Automatic Handle Helpers
+    custom_shape: WGT-Arrow3D
+    rotation_mode: QUATERNION
+    lock_rotation: [False, False, False]
+    keyframes: []
+    constraints:
+      - Copy Location (COPY_LOCATION), mute=False, influence=1.0
+      - Damped Track +Y (DAMPED_TRACK), mute=True, influence=1.0
+
+17. AIM-TAN-Forehead_4_2.L  score=24
+    parent: BB-Forehead-_Top_3.L
+    collections: TAN-AIM: BBone Automatic Handle Helpers
+    custom_shape: WGT-Arrow3D
+    rotation_mode: QUATERNION
+    lock_rotation: [False, False, False]
+    keyframes: []
+    constraints:
+      - Copy Location (COPY_LOCATION), mute=False, influence=1.0
+      - Damped Track +Y (DAMPED_TRACK), mute=True, influence=1.0
+
+18. AIM-TAN-Forehead_4_2.R  score=24
+    parent: BB-Forehead-_Top_3.R
+    collections: TAN-AIM: BBone Automatic Handle Helpers
+    custom_shape: WGT-Arrow3D
+    rotation_mode: QUATERNION
+    lock_rotation: [False, False, False]
+    keyframes: []
+    constraints:
+      - Copy Location (COPY_LOCATION), mute=False, influence=1.0
+      - Damped Track +Y (DAMPED_TRACK), mute=True, influence=1.0
+
+19. LTC-Head_Bot  score=24
+    parent: LTC-Head_Main
+    collections: Face Lattices
+    custom_shape: WGT-Square
+    rotation_mode: XYZ
+    lock_rotation: [False, False, False]
+    keyframes: []
+
+20. LTC-Head_Main  score=24
+    parent: DEF-Head
+    collections: Face Lattices
+    custom_shape: WGT-Square
+    rotation_mode: XYZ
+    lock_rotation: [False, False, False]
+    keyframes: []
+
+21. LTC-Head_Top  score=24
+    parent: LTC-Head_Main
+    collections: Face Lattices
+    custom_shape: WGT-Square
+    rotation_mode: XYZ
+    lock_rotation: [False, False, False]
+    keyframes: []
+
+22. P-FK-Head  score=24
+    parent: None
+    collections: FK Mechanism
+    custom_shape: WGT-FK_Limb
+    rotation_mode: XYZ
+    lock_rotation: [True, True, True]
+    keyframes: []
+    constraints:
+      - Armature (ARMATURE), mute=False, influence=1.0
+      - Copy Location (COPY_LOCATION), mute=False, influence=1.0
+
+23. MSTR-Pelvis_Parent  score=23
+    parent: ROOT_Child
+    collections: IK Controls
+    custom_shape: WGT-Torso_Master
+    rotation_mode: XYZ
+    lock_rotation: [False, False, False]
+    keyframes: []
+
+24. P-FK-Neck  score=22
+    parent: None
+    collections: FK Mechanism
+    custom_shape: WGT-FK_Limb_Offset
+    rotation_mode: XYZ
+    lock_rotation: [True, True, True]
+    keyframes: []
+    constraints:
+      - Armature (ARMATURE), mute=False, influence=1.0
+      - Copy Location (COPY_LOCATION), mute=False, influence=1.0
+
+25. FK-Chest  score=20
+    parent: FK-Ribcage_Child
+    collections: FK Spine
+    custom_shape: WGT-FK_Limb
+    rotation_mode: ZYX
+    lock_rotation: [False, False, False]
+    keyframes: []
+
+26. FK-Chest_Child  score=20
+    parent: FK-Chest
+    collections: FK Mechanism
+    custom_shape: WGT-FK_Limb
+    rotation_mode: ZYX
+    lock_rotation: [False, False, False]
+    keyframes: []
+    constraints:
+      - Transf_Trans_Side.L (TRANSFORM), mute=True, influence=1.0
+      - Transf_Trans_Side.R (TRANSFORM), mute=True, influence=1.0
+
+27. FK-Spine  score=20
+    parent: MSTR-Pelvis
+    collections: FK Spine
+    custom_shape: WGT-FK_Limb
+    rotation_mode: ZYX
+    lock_rotation: [False, False, False]
+    keyframes: []
+    constraints:
+      - ik_spine (COPY_TRANSFORMS), mute=False, influence=1.0
+
+28. FK-Spine_Child  score=20
+    parent: FK-Spine
+    collections: FK Mechanism
+    custom_shape: WGT-FK_Limb
+    rotation_mode: ZYX
+    lock_rotation: [False, False, False]
+    keyframes: []
+    constraints:
+      - Transf_Trans_Fwd (TRANSFORM), mute=False, influence=1.0
+      - Transf_Trans_Back (TRANSFORM), mute=False, influence=1.0
+      - Transf_Trans_Side.L (TRANSFORM), mute=False, influence=1.0
+      - Transf_Trans_Side.R (TRANSFORM), mute=False, influence=1.0
+
+29. MSTR-Chest  score=20
+    parent: MSTR-Chest_Parent
+    collections: Extras
+    custom_shape: WGT-Torso
+    rotation_mode: XYZ
+    lock_rotation: [False, False, False]
+    keyframes: []
+
+30. MSTR-Chest_Parent  score=20
+    parent: MSTR-Pelvis
+    collections: IK Spine
+    custom_shape: WGT-Torso
+    rotation_mode: XYZ
+    lock_rotation: [False, False, False]
+    keyframes: []
+
+31. MSTR-Pelvis  score=20
+    parent: MSTR-Pelvis_Parent
+    collections: Extras
+    custom_shape: WGT-Torso_Master
+    rotation_mode: XYZ
+    lock_rotation: [False, False, False]
+    keyframes: []
+
+32. DSP-LTC-Head_Bot  score=18
+    parent: LTC-Head_Bot
+    collections: DSP: Custom Shape Display Helpers
+    custom_shape: None
+    rotation_mode: QUATERNION
+    lock_rotation: [False, False, False]
+    keyframes: []
+
+33. DSP-LTC-Head_Top  score=18
+    parent: LTC-Head_Top
+    collections: DSP: Custom Shape Display Helpers
+    custom_shape: None
+    rotation_mode: QUATERNION
+    lock_rotation: [False, False, False]
+    keyframes: []
+
+34. HLP-Head  score=18
+    parent: FK-Neck
+    collections: FK Mechanism
+    custom_shape: None
+    rotation_mode: XYZ
+    lock_rotation: [False, False, False]
+    keyframes: []
+    constraints:
+      - Copy Transforms (COPY_TRANSFORMS), mute=False, influence=1.0
+
+35. HLP-Head2  score=18
+    parent: HLP-Head
+    collections: FK Mechanism
+    custom_shape: None
+    rotation_mode: XYZ
+    lock_rotation: [False, False, False]
+    keyframes: []
+    constraints:
+      - Copy Transforms (COPY_TRANSFORMS), mute=False, influence=1.0
+
+36. HNG-Head  score=18
+    parent: FK-Neck
+    collections: FK Hinges
+    custom_shape: None
+    rotation_mode: XYZ
+    lock_rotation: [False, False, False]
+    keyframes: []
+
+37. ACT-Cheek_Inner.L  score=17
+    parent: MSTR-Head_Upper
+    collections: Face Main
+    custom_shape: WGT-Capsule_Flat
+    rotation_mode: XYZ
+    lock_rotation: [True, True, True]
+    keyframes: []
+    constraints:
+      - Action_Sneer.L (ACTION), mute=False, influence=1.0
+      - Limit Location (LIMIT_LOCATION), mute=False, influence=1.0
+
+38. ACT-Cheek_Inner.R  score=17
+    parent: MSTR-Head_Upper
+    collections: Face Main
+    custom_shape: WGT-Capsule_Flat
+    rotation_mode: XYZ
+    lock_rotation: [True, True, True]
+    keyframes: []
+    constraints:
+      - Action_Sneer.R (ACTION), mute=False, influence=1.0
+      - Limit Location (LIMIT_LOCATION), mute=False, influence=1.0
+
+39. ACT-Cheek_Outer.L  score=17
+    parent: GRP-Jaw_Upper
+    collections: Face Main
+    custom_shape: WGT-Capsule_Flat
+    rotation_mode: XYZ
+    lock_rotation: [True, True, True]
+    keyframes: [1.0, 20.0, 28.0, 36.0, 75.0, 82.0, 96.0]
+    constraints:
+      - Limit Location (LIMIT_LOCATION), mute=False, influence=1.0
+      - Action_Lips_Corner_Up+Wide (ACTION), mute=False, influence=0.0
+
+40. ACT-Cheek_Outer.R  score=17
+    parent: GRP-Jaw_Upper
+    collections: Face Main
+    custom_shape: WGT-Capsule_Flat
+    rotation_mode: XYZ
+    lock_rotation: [True, True, True]
+    keyframes: [1.0, 20.0, 28.0, 36.0, 75.0, 82.0, 96.0]
+    constraints:
+      - Limit Location (LIMIT_LOCATION), mute=False, influence=1.0
+      - Action_Lips_Corner_Up+Wide (ACTION), mute=False, influence=0.0
+
