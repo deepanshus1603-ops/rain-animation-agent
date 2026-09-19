@@ -1,0 +1,84 @@
+{
+  "mode": "READ_ONLY_PREVIEW",
+  "blend_file": "C:\\Users\\Dipanshu\\Desktop\\blender\\project4\\rain-animation-agent\\workspace\\agent_working.blend",
+  "camera": "RAIN_TEMP_PREVIEW_CAMERA",
+  "camera_source": "temporary_auto_camera",
+  "lighting_source": "temporary_three_point",
+  "frames_requested": [
+    1,
+    24,
+    36,
+    48,
+    50,
+    60,
+    75,
+    81,
+    96
+  ],
+  "frames_rendered": [
+    {
+      "frame": 1,
+      "file": "frame_001.jpg",
+      "path": "C:\\Users\\Dipanshu\\Desktop\\blender\\project4\\rain-animation-agent\\handoff\\latest\\previews\\frame_001.jpg"
+    },
+    {
+      "frame": 24,
+      "file": "frame_024.jpg",
+      "path": "C:\\Users\\Dipanshu\\Desktop\\blender\\project4\\rain-animation-agent\\handoff\\latest\\previews\\frame_024.jpg"
+    },
+    {
+      "frame": 36,
+      "file": "frame_036.jpg",
+      "path": "C:\\Users\\Dipanshu\\Desktop\\blender\\project4\\rain-animation-agent\\handoff\\latest\\previews\\frame_036.jpg"
+    },
+    {
+      "frame": 48,
+      "file": "frame_048.jpg",
+      "path": "C:\\Users\\Dipanshu\\Desktop\\blender\\project4\\rain-animation-agent\\handoff\\latest\\previews\\frame_048.jpg"
+    },
+    {
+      "frame": 50,
+      "file": "frame_050.jpg",
+      "path": "C:\\Users\\Dipanshu\\Desktop\\blender\\project4\\rain-animation-agent\\handoff\\latest\\previews\\frame_050.jpg"
+    },
+    {
+      "frame": 60,
+      "file": "frame_060.jpg",
+      "path": "C:\\Users\\Dipanshu\\Desktop\\blender\\project4\\rain-animation-agent\\handoff\\latest\\previews\\frame_060.jpg"
+    },
+    {
+      "frame": 75,
+      "file": "frame_075.jpg",
+      "path": "C:\\Users\\Dipanshu\\Desktop\\blender\\project4\\rain-animation-agent\\handoff\\latest\\previews\\frame_075.jpg"
+    },
+    {
+      "frame": 81,
+      "file": "frame_081.jpg",
+      "path": "C:\\Users\\Dipanshu\\Desktop\\blender\\project4\\rain-animation-agent\\handoff\\latest\\previews\\frame_081.jpg"
+    },
+    {
+      "frame": 96,
+      "file": "frame_096.jpg",
+      "path": "C:\\Users\\Dipanshu\\Desktop\\blender\\project4\\rain-animation-agent\\handoff\\latest\\previews\\frame_096.jpg"
+    }
+  ],
+  "errors": [],
+  "render_engine_before": "BLENDER_EEVEE",
+  "resolution_before": [
+    1920,
+    1080,
+    100
+  ],
+  "camera_target": [
+    0.0,
+    0.161309,
+    0.957454
+  ],
+  "subject_size": [
+    0.608736,
+    0.69566,
+    1.648808
+  ],
+  "camera_distance": 3.0,
+  "light_count": 3
+}
