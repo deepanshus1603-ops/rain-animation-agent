@@ -1,5 +1,6 @@
 ﻿ M handoff/latest/blender_log.txt
  D handoff/latest/execution_report.md
+ D handoff/latest/face_v1_write_report.json
  D handoff/latest/git_status.txt
  D handoff/latest/handoff_manifest.json
  D handoff/latest/preview_render_log.txt
@@ -14,14 +15,27 @@
  D handoff/latest/previews/frame_081.jpg
  D handoff/latest/previews/frame_096.jpg
  D handoff/latest/previews/preview_manifest.json
- M handoff/latest/scene_state.json
+ D handoff/latest/smile_lab/neutral.jpg
+ D handoff/latest/smile_lab/smile_A_subtle.jpg
+ D handoff/latest/smile_lab/smile_B_balanced.jpg
+ D handoff/latest/smile_lab/smile_C_cheek.jpg
+ D handoff/latest/smile_lab/smile_D_upward.jpg
+ D handoff/latest/smile_lab/smile_lab_manifest.json
+ D handoff/latest/smile_lab_log.txt
+ D handoff/latest/smile_lab_report.md
 ?? Modelfile-opencode
 ?? apply-rain-face-v1.ps1
+?? apply-rain-face-v2.ps1
 ?? blender_tools/apply_face_v1.py
+?? blender_tools/apply_face_v2_balanced.py
 ?? blender_tools/inspect_scene.py
 ?? blender_tools/inspect_scene.py.bak
 ?? blender_tools/render_previews.py
 ?? blender_tools/render_previews.py.bak
+?? blender_tools/render_smile_lab.py
+?? blender_tools/render_smile_lab.py.bak
 ?? collect-rain-previews.ps1
 ?? collect-rain-state.ps1
+?? collect-smile-lab.ps1
+?? collect-smile-lab.ps1.bak
 ?? rain_worker.py
