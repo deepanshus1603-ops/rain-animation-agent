@@ -1,0 +1,138 @@
+{
+  "mode": "READ_ONLY_SMILE_LAB",
+  "base_frame": 96,
+  "candidates": {
+    "neutral": {
+      "lip_l": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "lip_r": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cheek_l": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cheek_r": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "smile_A_subtle": {
+      "lip_l": [
+        0.0035,
+        0.0015,
+        0.01
+      ],
+      "lip_r": [
+        -0.0032,
+        0.0015,
+        0.0105
+      ],
+      "cheek_l": [
+        0.0,
+        0.0008,
+        0.0
+      ],
+      "cheek_r": [
+        0.0,
+        0.0008,
+        0.0
+      ]
+    },
+    "smile_B_balanced": {
+      "lip_l": [
+        0.004,
+        0.002,
+        0.0135
+      ],
+      "lip_r": [
+        -0.0038,
+        0.002,
+        0.014
+      ],
+      "cheek_l": [
+        0.0,
+        0.0014,
+        0.0
+      ],
+      "cheek_r": [
+        0.0,
+        0.0013,
+        0.0
+      ]
+    },
+    "smile_C_cheek": {
+      "lip_l": [
+        0.0045,
+        0.0025,
+        0.0155
+      ],
+      "lip_r": [
+        -0.0041,
+        0.0025,
+        0.016
+      ],
+      "cheek_l": [
+        0.0,
+        0.0022,
+        0.0
+      ],
+      "cheek_r": [
+        0.0,
+        0.002,
+        0.0
+      ]
+    },
+    "smile_D_upward": {
+      "lip_l": [
+        0.0035,
+        0.003,
+        0.017
+      ],
+      "lip_r": [
+        -0.0032,
+        0.0028,
+        0.0175
+      ],
+      "cheek_l": [
+        0.0,
+        0.0028,
+        0.0
+      ],
+      "cheek_r": [
+        0.0,
+        0.0025,
+        0.0
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "neutral",
+      "file": "neutral.jpg"
+    },
+    {
+      "name": "smile_A_subtle",
+      "file": "smile_A_subtle.jpg"
+    },
+    {
+      "name": "smile_B_balanced",
+      "file": "smile_B_balanced.jpg"
+    },
+    {
+      "name": "smile_C_cheek",
+      "file": "smile_C_cheek.jpg"
+    },
+    {
+      "name": "smile_D_upward",
+      "file": "smile_D_upward.jpg"
+    }
+  ]
+}
