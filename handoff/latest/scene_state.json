@@ -10,9 +10,12 @@
   "rig_type": "ARMATURE",
   "pose_bone_count": 2166,
   "action_name": "RIG-rainAction.002",
-  "action_fcurve_count": 0,
+  "action_is_layered": true,
+  "action_slot": "OBRIG-rain",
+  "action_fcurve_count": 68,
   "required_controls_total": 16,
   "required_controls_found": 16,
+  "required_controls_with_keyframes": 7,
   "missing_controls": [],
   "controls": {
     "FK-Upperarm_Parent.R": {
@@ -40,7 +43,23 @@
         1.0
       ],
       "constraints": [],
-      "keyframes": []
+      "keyframes": [
+        1.0,
+        12.0,
+        20.0,
+        28.0,
+        36.0,
+        42.0,
+        48.0,
+        54.0,
+        60.0,
+        66.0,
+        71.0,
+        75.0,
+        82.0,
+        90.0,
+        96.0
+      ]
     },
     "FK-Upperarm.R": {
       "exists": true,
@@ -108,7 +127,23 @@
           "influence": 0.0
         }
       ],
-      "keyframes": []
+      "keyframes": [
+        1.0,
+        12.0,
+        20.0,
+        28.0,
+        36.0,
+        42.0,
+        48.0,
+        54.0,
+        60.0,
+        66.0,
+        71.0,
+        75.0,
+        82.0,
+        90.0,
+        96.0
+      ]
     },
     "FK-Hand.R": {
       "exists": true,
@@ -154,7 +189,23 @@
           "influence": 0.0
         }
       ],
-      "keyframes": []
+      "keyframes": [
+        1.0,
+        12.0,
+        20.0,
+        28.0,
+        36.0,
+        42.0,
+        48.0,
+        54.0,
+        60.0,
+        66.0,
+        71.0,
+        75.0,
+        82.0,
+        90.0,
+        96.0
+      ]
     },
     "FK-Upperarm_Parent.L": {
       "exists": true,
@@ -181,7 +232,23 @@
         1.0
       ],
       "constraints": [],
-      "keyframes": []
+      "keyframes": [
+        1.0,
+        12.0,
+        20.0,
+        28.0,
+        36.0,
+        42.0,
+        48.0,
+        54.0,
+        60.0,
+        66.0,
+        71.0,
+        75.0,
+        82.0,
+        90.0,
+        96.0
+      ]
     },
     "FK-Upperarm.L": {
       "exists": true,
@@ -215,7 +282,23 @@
           "influence": 1.0
         }
       ],
-      "keyframes": []
+      "keyframes": [
+        1.0,
+        12.0,
+        20.0,
+        28.0,
+        36.0,
+        42.0,
+        48.0,
+        54.0,
+        60.0,
+        66.0,
+        71.0,
+        75.0,
+        82.0,
+        90.0,
+        96.0
+      ]
     },
     "FK-Forearm.L": {
       "exists": true,
@@ -249,7 +332,23 @@
           "influence": 1.0
         }
       ],
-      "keyframes": []
+      "keyframes": [
+        1.0,
+        12.0,
+        20.0,
+        28.0,
+        36.0,
+        42.0,
+        48.0,
+        54.0,
+        60.0,
+        66.0,
+        71.0,
+        75.0,
+        82.0,
+        90.0,
+        96.0
+      ]
     },
     "FK-Hand.L": {
       "exists": true,
@@ -295,7 +394,23 @@
           "influence": 1.0
         }
       ],
-      "keyframes": []
+      "keyframes": [
+        1.0,
+        12.0,
+        20.0,
+        28.0,
+        36.0,
+        42.0,
+        48.0,
+        54.0,
+        60.0,
+        66.0,
+        71.0,
+        75.0,
+        82.0,
+        90.0,
+        96.0
+      ]
     },
     "ACT-Lips_Corner.L": {
       "exists": true,

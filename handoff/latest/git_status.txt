@@ -1,5 +1,10 @@
-﻿?? Modelfile-opencode
+﻿ M handoff/latest/blender_log.txt
+ D handoff/latest/execution_report.md
+ D handoff/latest/git_status.txt
+ D handoff/latest/handoff_manifest.json
+ M handoff/latest/scene_state.json
+?? Modelfile-opencode
 ?? blender_tools/inspect_scene.py
+?? blender_tools/inspect_scene.py.bak
 ?? collect-rain-state.ps1
-?? handoff/
 ?? rain_worker.py
