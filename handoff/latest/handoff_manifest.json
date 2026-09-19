@@ -1,0 +1,16 @@
+﻿{
+    "timestamp":  "2026-09-19T06:08:31",
+    "mode":  "READ_ONLY",
+    "pass":  true,
+    "blender_exit_code":  0,
+    "rig_found":  true,
+    "action_name":  "RIG-rainAction.002",
+    "pose_bone_count":  2166,
+    "required_controls_found":  16,
+    "required_controls_total":  16,
+    "missing_controls":  [
+
+                         ],
+    "master_blend_unchanged":  true,
+    "agent_blend_unchanged":  true
+}

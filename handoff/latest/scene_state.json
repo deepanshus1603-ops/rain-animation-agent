@@ -1,0 +1,646 @@
+{
+  "inspection_mode": "READ_ONLY",
+  "blender_version": "5.2.1 LTS",
+  "blend_file": "C:\\Users\\Dipanshu\\Desktop\\blender\\project4\\rain-animation-agent\\workspace\\agent_working.blend",
+  "frame_current": 98,
+  "frame_start": 1,
+  "frame_end": 120,
+  "rig_name": "RIG-rain",
+  "rig_found": true,
+  "rig_type": "ARMATURE",
+  "pose_bone_count": 2166,
+  "action_name": "RIG-rainAction.002",
+  "action_fcurve_count": 0,
+  "required_controls_total": 16,
+  "required_controls_found": 16,
+  "missing_controls": [],
+  "controls": {
+    "FK-Upperarm_Parent.R": {
+      "exists": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_mode": "XYZ",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        1.256637
+      ],
+      "rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "constraints": [],
+      "keyframes": []
+    },
+    "FK-Upperarm.R": {
+      "exists": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_mode": "XYZ",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "constraints": [
+        {
+          "name": "ik_arm_right",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "influence": 0.0
+        }
+      ],
+      "keyframes": []
+    },
+    "FK-Forearm.R": {
+      "exists": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_mode": "XYZ",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        -0.139626
+      ],
+      "rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "constraints": [
+        {
+          "name": "ik_arm_right",
+          "type": "COPY_TRANSFORMS",
+          "mute": false,
+          "influence": 0.0
+        }
+      ],
+      "keyframes": []
+    },
+    "FK-Hand.R": {
+      "exists": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_mode": "XYZ",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "constraints": [
+        {
+          "name": "ik_arm_right * ik_hinge_hand_right",
+          "type": "COPY_ROTATION",
+          "mute": false,
+          "influence": 0.0
+        },
+        {
+          "name": "ik_arm_right * ik_stretch_arms",
+          "type": "COPY_LOCATION",
+          "mute": false,
+          "influence": 0.0
+        },
+        {
+          "name": "ik_arm_right",
+          "type": "COPY_SCALE",
+          "mute": false,
+          "influence": 0.0
+        }
+      ],
+      "keyframes": []
+    },
+    "FK-Upperarm_Parent.L": {
+      "exists": true,
+      "location": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "rotation_mode": "QUATERNION",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        1.256637
+      ],
+      "rotation_quaternion": [
+        0.809017,
+        -0.0,
+        -0.0,
+        -0.587785
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "constraints": [],
+      "keyframes": []
+    },
+    "FK-Upperarm.L": {
+      "exists": true,
+      "location": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "rotation_mode": "QUATERNION",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "constraints": [
+        {
+          "name": "ik_arm_left",
+          "type": "COPY_TRANSFORMS",
+          "mute": true,
+          "influence": 1.0
+        }
+      ],
+      "keyframes": []
+    },
+    "FK-Forearm.L": {
+      "exists": true,
+      "location": [
+        -0.0,
+        -0.0,
+        0.0
+      ],
+      "rotation_mode": "QUATERNION",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        -0.139626
+      ],
+      "rotation_quaternion": [
+        0.997564,
+        -0.0,
+        -0.0,
+        0.069757
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "constraints": [
+        {
+          "name": "ik_arm_left",
+          "type": "COPY_TRANSFORMS",
+          "mute": true,
+          "influence": 1.0
+        }
+      ],
+      "keyframes": []
+    },
+    "FK-Hand.L": {
+      "exists": true,
+      "location": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "rotation_mode": "QUATERNION",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "constraints": [
+        {
+          "name": "ik_arm_left * ik_hinge_hand_left",
+          "type": "COPY_ROTATION",
+          "mute": true,
+          "influence": 1.0
+        },
+        {
+          "name": "ik_arm_left * ik_stretch_arms",
+          "type": "COPY_LOCATION",
+          "mute": true,
+          "influence": 1.0
+        },
+        {
+          "name": "ik_arm_left",
+          "type": "COPY_SCALE",
+          "mute": true,
+          "influence": 1.0
+        }
+      ],
+      "keyframes": []
+    },
+    "ACT-Lips_Corner.L": {
+      "exists": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_mode": "XYZ",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "constraints": [
+        {
+          "name": "Limit Location",
+          "type": "LIMIT_LOCATION",
+          "mute": false,
+          "influence": 1.0
+        },
+        {
+          "name": "Limit Rotation",
+          "type": "LIMIT_ROTATION",
+          "mute": false,
+          "influence": 1.0
+        },
+        {
+          "name": "Limit Scale",
+          "type": "LIMIT_SCALE",
+          "mute": false,
+          "influence": 1.0
+        }
+      ],
+      "keyframes": []
+    },
+    "ACT-Lips_Corner.R": {
+      "exists": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_mode": "XYZ",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "constraints": [
+        {
+          "name": "Limit Location",
+          "type": "LIMIT_LOCATION",
+          "mute": false,
+          "influence": 1.0
+        },
+        {
+          "name": "Limit Rotation",
+          "type": "LIMIT_ROTATION",
+          "mute": false,
+          "influence": 1.0
+        },
+        {
+          "name": "Limit Scale",
+          "type": "LIMIT_SCALE",
+          "mute": false,
+          "influence": 1.0
+        }
+      ],
+      "keyframes": []
+    },
+    "ACT-Cheek_Outer.L": {
+      "exists": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_mode": "XYZ",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "constraints": [
+        {
+          "name": "Limit Location",
+          "type": "LIMIT_LOCATION",
+          "mute": false,
+          "influence": 1.0
+        },
+        {
+          "name": "Action_Lips_Corner_Up+Wide",
+          "type": "ACTION",
+          "mute": false,
+          "influence": 0.0
+        }
+      ],
+      "keyframes": []
+    },
+    "ACT-Cheek_Outer.R": {
+      "exists": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_mode": "XYZ",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "constraints": [
+        {
+          "name": "Limit Location",
+          "type": "LIMIT_LOCATION",
+          "mute": false,
+          "influence": 1.0
+        },
+        {
+          "name": "Action_Lips_Corner_Up+Wide",
+          "type": "ACTION",
+          "mute": false,
+          "influence": 0.0
+        }
+      ],
+      "keyframes": []
+    },
+    "ACT-Eyelid_Upper.L": {
+      "exists": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_mode": "ZYX",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "constraints": [
+        {
+          "name": "Limit Location",
+          "type": "LIMIT_LOCATION",
+          "mute": false,
+          "influence": 1.0
+        },
+        {
+          "name": "Limit Rotation",
+          "type": "LIMIT_ROTATION",
+          "mute": false,
+          "influence": 1.0
+        }
+      ],
+      "keyframes": []
+    },
+    "ACT-Eyelid_Upper.R": {
+      "exists": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_mode": "ZYX",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "constraints": [
+        {
+          "name": "Limit Location",
+          "type": "LIMIT_LOCATION",
+          "mute": false,
+          "influence": 1.0
+        },
+        {
+          "name": "Limit Rotation",
+          "type": "LIMIT_ROTATION",
+          "mute": false,
+          "influence": 1.0
+        }
+      ],
+      "keyframes": []
+    },
+    "ACT-Eyelid_Lower.L": {
+      "exists": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_mode": "ZYX",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "constraints": [
+        {
+          "name": "Limit Location",
+          "type": "LIMIT_LOCATION",
+          "mute": false,
+          "influence": 1.0
+        },
+        {
+          "name": "Action_Lips_UpDown.L",
+          "type": "ACTION",
+          "mute": false,
+          "influence": 1.0
+        },
+        {
+          "name": "Limit Rotation",
+          "type": "LIMIT_ROTATION",
+          "mute": false,
+          "influence": 1.0
+        }
+      ],
+      "keyframes": []
+    },
+    "ACT-Eyelid_Lower.R": {
+      "exists": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_mode": "ZYX",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "constraints": [
+        {
+          "name": "Limit Location",
+          "type": "LIMIT_LOCATION",
+          "mute": false,
+          "influence": 1.0
+        },
+        {
+          "name": "Action_Lips_UpDown.R",
+          "type": "ACTION",
+          "mute": false,
+          "influence": 1.0
+        },
+        {
+          "name": "Limit Rotation",
+          "type": "LIMIT_ROTATION",
+          "mute": false,
+          "influence": 1.0
+        }
+      ],
+      "keyframes": []
+    }
+  },
+  "errors": []
+}
