@@ -2,9 +2,26 @@
  D handoff/latest/execution_report.md
  D handoff/latest/git_status.txt
  D handoff/latest/handoff_manifest.json
+ D handoff/latest/preview_render_log.txt
+ D handoff/latest/preview_report.md
+ D handoff/latest/previews/frame_001.jpg
+ D handoff/latest/previews/frame_024.jpg
+ D handoff/latest/previews/frame_036.jpg
+ D handoff/latest/previews/frame_048.jpg
+ D handoff/latest/previews/frame_050.jpg
+ D handoff/latest/previews/frame_060.jpg
+ D handoff/latest/previews/frame_075.jpg
+ D handoff/latest/previews/frame_081.jpg
+ D handoff/latest/previews/frame_096.jpg
+ D handoff/latest/previews/preview_manifest.json
  M handoff/latest/scene_state.json
 ?? Modelfile-opencode
+?? apply-rain-face-v1.ps1
+?? blender_tools/apply_face_v1.py
 ?? blender_tools/inspect_scene.py
 ?? blender_tools/inspect_scene.py.bak
+?? blender_tools/render_previews.py
+?? blender_tools/render_previews.py.bak
+?? collect-rain-previews.ps1
 ?? collect-rain-state.ps1
 ?? rain_worker.py

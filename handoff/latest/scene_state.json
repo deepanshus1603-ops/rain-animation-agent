@@ -12,10 +12,10 @@
   "action_name": "RIG-rainAction.002",
   "action_is_layered": true,
   "action_slot": "OBRIG-rain",
-  "action_fcurve_count": 68,
+  "action_fcurve_count": 92,
   "required_controls_total": 16,
   "required_controls_found": 16,
-  "required_controls_with_keyframes": 7,
+  "required_controls_with_keyframes": 15,
   "missing_controls": [],
   "controls": {
     "FK-Upperarm_Parent.R": {
@@ -456,12 +456,20 @@
           "influence": 1.0
         }
       ],
-      "keyframes": []
+      "keyframes": [
+        1.0,
+        20.0,
+        28.0,
+        36.0,
+        75.0,
+        82.0,
+        96.0
+      ]
     },
     "ACT-Lips_Corner.R": {
       "exists": true,
       "location": [
-        0.0,
+        -0.0,
         0.0,
         0.0
       ],
@@ -502,7 +510,15 @@
           "influence": 1.0
         }
       ],
-      "keyframes": []
+      "keyframes": [
+        1.0,
+        20.0,
+        28.0,
+        36.0,
+        75.0,
+        82.0,
+        96.0
+      ]
     },
     "ACT-Cheek_Outer.L": {
       "exists": true,
@@ -542,7 +558,15 @@
           "influence": 0.0
         }
       ],
-      "keyframes": []
+      "keyframes": [
+        1.0,
+        20.0,
+        28.0,
+        36.0,
+        75.0,
+        82.0,
+        96.0
+      ]
     },
     "ACT-Cheek_Outer.R": {
       "exists": true,
@@ -582,7 +606,15 @@
           "influence": 0.0
         }
       ],
-      "keyframes": []
+      "keyframes": [
+        1.0,
+        20.0,
+        28.0,
+        36.0,
+        75.0,
+        82.0,
+        96.0
+      ]
     },
     "ACT-Eyelid_Upper.L": {
       "exists": true,
@@ -622,7 +654,13 @@
           "influence": 1.0
         }
       ],
-      "keyframes": []
+      "keyframes": [
+        1.0,
+        48.0,
+        50.0,
+        53.0,
+        96.0
+      ]
     },
     "ACT-Eyelid_Upper.R": {
       "exists": true,
@@ -662,7 +700,13 @@
           "influence": 1.0
         }
       ],
-      "keyframes": []
+      "keyframes": [
+        1.0,
+        48.0,
+        50.0,
+        53.0,
+        96.0
+      ]
     },
     "ACT-Eyelid_Lower.L": {
       "exists": true,
@@ -708,7 +752,13 @@
           "influence": 1.0
         }
       ],
-      "keyframes": []
+      "keyframes": [
+        1.0,
+        48.0,
+        50.0,
+        53.0,
+        96.0
+      ]
     },
     "ACT-Eyelid_Lower.R": {
       "exists": true,
@@ -754,7 +804,13 @@
           "influence": 1.0
         }
       ],
-      "keyframes": []
+      "keyframes": [
+        1.0,
+        48.0,
+        50.0,
+        53.0,
+        96.0
+      ]
     }
   },
   "errors": []
